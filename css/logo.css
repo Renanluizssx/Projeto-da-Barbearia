@@ -1,0 +1,11 @@
+
+div.logo {
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+div.logo img.logo {
+    width:230.03px;
+    height:134px;
+    margin-bottom:5%;
+}

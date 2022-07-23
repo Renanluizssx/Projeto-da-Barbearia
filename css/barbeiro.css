@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Roboto Slab', serif;
+}
+div.conteudo {
+    display:flex;
+    flex-direction: column;
+    margin:300px;
+    margin-top:80px;
+    
+}
+div.seta {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    margin-left:310px;
+    margin-top:50px;
+}
+h2 {
+    font-size:30px;
+    margin-bottom:30px;
+    color:#F4EDE8;
+    
+}
+div.part1 {
+    display:flex;
+}
+div.part2 {
+    display:flex;
+}
+div.barbeiros {
+    width:100%;
+    background-color:#3E3B47;
+    width:50%;
+    margin:1%;
+    padding:1%;
+    border-radius:15px;   
+    display:flex;
+    flex-direction: row; 
+    position:relative;
+}
+div.barbeiros div.horario img {
+    width: 20px;
+    height:20px;
+    margin-right:5px;
+    
+}
+div.barbeiros h3 {
+    color:antiquewhite;
+    margin-left:10px;
+}
+div.perfil {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+}
+div.horario {
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    position:absolute;
+    left:100px;
+    top:50px;
+    align-items:center;
+    color:#999591;
+    
+} 
+   
+
