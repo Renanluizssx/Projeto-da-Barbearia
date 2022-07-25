@@ -11,7 +11,7 @@ div.conteudo {
     display:flex;
     flex-direction: column;
     margin:300px;
-    margin-top:80px;
+    margin-top:60px;
     
 }
 div.seta {
@@ -19,12 +19,13 @@ div.seta {
     flex-direction: row;
     align-items:center;
     margin-left:310px;
-    margin-top:50px;
+    margin-top:10px;
 }
 h2 {
-    font-size:30px;
+    font-size:36px;
     margin-bottom:30px;
     color:#F4EDE8;
+    font-weight:900;
     
 }
 div.part1 {
@@ -34,9 +35,8 @@ div.part2 {
     display:flex;
 }
 div.barbeiros {
-    width:100%;
     background-color:#3E3B47;
-    width:50%;
+    width:40%;
     margin:1%;
     padding:1%;
     border-radius:15px;   
@@ -51,8 +51,14 @@ div.barbeiros div.horario img {
     
 }
 div.barbeiros h3 {
-    color:antiquewhite;
+    color:#F4EDE8;
     margin-left:10px;
+    font-size:24px;
+    font-weight:900;
+}
+div.barbeiros p {
+    font-size:16px;
+    font-weight: bolder;
 }
 div.perfil {
     display:flex;
@@ -68,6 +74,7 @@ div.horario {
     top:50px;
     align-items:center;
     color:#999591;
+
     
 } 
    
