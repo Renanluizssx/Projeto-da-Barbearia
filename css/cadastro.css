@@ -25,8 +25,6 @@ div.bloco {
 }
 
 div.con {
-    
-   
     font-family: 'Roboto Slab', serif;
     height:100vh;
     width:100%;
@@ -40,10 +38,12 @@ div.logo {
 }
 form {
     height:100%;
+    width:100%;
 }
 div.entradas {
     margin-bottom:20%;
     margin-top:20px;
+    width:100%;
     
 }
 div.voltar {
@@ -65,14 +65,27 @@ p.pvoltar {
 }
 
 @media screen and (min-width:300px) and (max-width:700px) {
+        img.logo {
+            width:100px;
+        }
     
-    form {
-        width:100%;
-    }
-    div.entradas {
-        width:100%;
-    }
-    div.button {
-        width:100%;
-    }
+        div.input {
+            display:flex;
+            justify-content:center;
+        }
+        input {
+            width:150px;
+        }
+        div.button {
+            width:100%;
+            display:flex;
+            justify-content:center;
+        }
+        button {
+            width:150px;
+        }
+        img.inputmod {
+            left:20%;
+        }
+
 }
