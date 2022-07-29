@@ -38,7 +38,6 @@ div.logo {
 }
 form {
     height:100%;
-    width:100%;
 }
 div.entradas {
     margin-bottom:20%;
@@ -66,28 +65,12 @@ p.pvoltar {
 
 @media screen and (min-width:300px) and (max-width:700px) {
         
-    
-        div.logo img.logo {
-            width:100px;
-        }
-    
-        div.input {
-            display:flex;
-            justify-content:center;
-        }
-        input {
-            width:150px;
-        }
-        div.button {
-            width:100%;
-            display:flex;
-            justify-content:center;
-        }
-        button {
-            width:150px;
-        }
-        img.inputmod {
-            left:20%;
-        }
-
+    div.bloco {
+        display:flex;
+        flex-direction:column-reverse;
+        height:100%;
+    }
+    .imagem img {
+        display: none;
+    }
 }
