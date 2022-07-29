@@ -17,6 +17,7 @@ div.bloco {
     display:grid;
     grid: auto / 50% 50%;
     height:100vh;
+    overflow:hidden;
 }
 .imagem img {
     height:100vh;
@@ -63,4 +64,15 @@ p.pvoltar {
     align-items:center;
 }
 
-
+@media screen and (min-width:300px) and (max-width:700px) {
+    
+    form {
+        width:100%;
+    }
+    div.entradas {
+        width:100%;
+    }
+    div.button {
+        width:100%;
+    }
+}

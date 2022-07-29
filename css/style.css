@@ -9,6 +9,7 @@ div.bloco {
     display:grid;
     height:100vh;
     grid: auto / 50% 50%;
+    overflow:hidden;
 }
 div.logo {
     margin-top:100px;
