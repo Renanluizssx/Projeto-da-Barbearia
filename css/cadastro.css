@@ -65,7 +65,9 @@ p.pvoltar {
 }
 
 @media screen and (min-width:300px) and (max-width:700px) {
-        img.logo {
+        
+    
+        div.logo img.logo {
             width:100px;
         }
     
