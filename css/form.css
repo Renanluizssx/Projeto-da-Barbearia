@@ -1,11 +1,4 @@
 
-* {
-    margin:0px;
-    padding:0px;
-    box-sizing:border-box;
-    font-family: 'Roboto', sans-serif;
-
-}
 form {
    display:flex;
    flex-direction: column;

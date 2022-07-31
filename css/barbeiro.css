@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-
-* {
-    margin:0px;
-    padding:0px;
-    box-sizing:border-box;
-    font-family: 'Roboto Slab', serif;
-}
 div.bloco {
     overflow: hidden;
 }
