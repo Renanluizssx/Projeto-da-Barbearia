@@ -1,8 +1,8 @@
 
 body {
     height:100vh;
+    width:100%;
 }
-
 div.login {
     
     width:100%;
@@ -74,7 +74,7 @@ div.clienteprincipal img.icone{
     height:80px;
     border-radius:50%;
 }
-div.clienteprincipal p.pprincipal {
+div.clienteprincipal p.principal {
     color:#F4EDE8;
     margin-left:5%;
     font-size:25px;
@@ -163,5 +163,51 @@ div.linha {
     margin-bottom:15px;
     color:#3E3B47;
 }
+
+@media screen and (min-width:300px) and (max-width:600px) {
+    div.header {
+        width:100%;
+    }
+    div.logo img.logo {
+        width:100px;
+    height:80px; 
+    }
+    div.logo span {
+        font-size:15px;
+        position:absolute;
+        top:120px;
+        left:10px;
+        margin:0px;
+    }
+    
+    div.login p {
+        width:50%;
+    }
+    div.conteudo h1 {
+        font-size:30px;
+    }
+    div.clienteprincipal {
+        width:100%;
+    }
+    div.clienteprincipal .fotoperfil .principal{
+            font-size:20px;
+    }
+    div.clienteprincipal .fotoperfil img.icone {
+        width:60px;
+        height:60px;
+    }
+    div.linha {
+        width:100%;
+    }
+    div.con .caixacliente .cliente .icone {
+        width:25px;
+    }
+}
+@media screen and (min-width:450px) and (max-width:800px) {
+    div.clienteprincipal {
+        width:100%;
+      }
+    }
+
 
 
