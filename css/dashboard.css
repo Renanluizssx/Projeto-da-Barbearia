@@ -200,7 +200,7 @@ div.linha {
         width:100%;
     }
     div.con .caixacliente .cliente .icone {
-        width:25px;
+        width:35px;
     }
 }
 @media screen and (min-width:450px) and (max-width:800px) {

@@ -73,13 +73,16 @@ div.horario {
     
 } 
 
-@media screen and (min-width:300px) and (max-width:700px) {
+@media screen and (min-width:300px) and (max-width:1226px) {
     div.header {
         width:100%;
     }
     div.logo img.logo {
         width:100px;
     height:80px; 
+    }
+    div.seta {
+        margin-left:0px;
     }
     div.logo span {
         font-size:15px;
@@ -97,31 +100,33 @@ div.horario {
         justify-content:center;
         align-items:center;
     }
-    div.conteudo {
-        display:flex;
-        justify-content:center;
-        align-items:center;
-    }
     div.bloco .conteudo .part1 {
-        height:100px;
         width:100%;
         display:flex;
         justify-content:center;
         align-items:center;
      }
+     div.bloco .conteudo .part1 .barbeiros {
+        width:150px;
+        
+     }
      div.bloco .conteudo .part2 {
-         height:100px;
+        
          width:100%;
          display:flex;
         justify-content:center;
         align-items:center;
  
       }
+      div.bloco .conteudo .part2 .barbeiros {
+        width:150px;
+        
+     }
       div.horario {
         top:35px;
         left:50px;
       }
-    div.bloco .conteudo .part1 .barbeiros .perfil h3 {
+      div.bloco .conteudo .part1 .barbeiros .perfil h3 {
         font-size:15px;
     }
     div.bloco .conteudo .part1 .barbeiros .perfil img {
@@ -150,5 +155,13 @@ div.horario {
        font-size:10px;
     }
 }
-   
-
+@media screen and (max-width:300px) {
+    div.bloco .conteudo .part1 .barbeiros {
+        width:100%;
+        
+     }
+     div.bloco .conteudo .part2 .barbeiros {
+        width:100%;
+        
+     }
+}

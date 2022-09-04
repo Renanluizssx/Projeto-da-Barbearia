@@ -28,7 +28,7 @@ div.conteudo div.linha {
     border:1px solid #3E3B47;
     margin-top:15px;
     margin-bottom:10px;
-    width:37%;
+    width:650px;
     
 }
 div.conteudo p.data {
@@ -63,4 +63,37 @@ button {
     border-radius:10px;
     margin-top:5%;
     font-size:16px;
+}
+@media screen and (min-width:300px) and (max-width:700px) {
+    div.header {
+        width:100%;
+    }
+    div.logo img.logo {
+        width:100px;
+    height:80px; 
+    }
+    div.logo span {
+        font-size:15px;
+        position:absolute;
+        top:120px;
+        left:10px;
+        margin:0px;
+    }
+    
+    div.login p {
+        width:50%;
+    }
+    div.conteudo h1 {
+        font-size:30px;
+    }
+    div.conteudo div.linha {
+        border:1px solid #3E3B47;
+        margin-top:15px;
+        margin-bottom:10px;
+        width:340px;
+        
+    }
+    button {
+        width:340px;
+    }
 }
