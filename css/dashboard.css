@@ -1,213 +1,195 @@
-
 body {
-    height:100vh;
-    width:100%;
+  height: 100vh;
+  width: 100%;
 }
 div.login {
-    
-    width:100%;
-    position:relative;
-    justify-content: flex-end;
-    margin-right:3%;
-    display:flex;
-    align-items:center;
-    
+  width: 100%;
+  position: relative;
+  justify-content: flex-end;
+  margin-right: 3%;
+  display: flex;
+  align-items: center;
 }
 
 div.login p {
-    margin-left:2%;
-    width:15%;
+  margin-left: 2%;
+  width: 15%;
 }
 div.conteudo {
-    margin:10%;
-    margin-top:100px;
-
+  margin: 10%;
+  margin-top: 100px;
 }
 div.titulo2 {
-    height:100%;
-    width:100%;
-    margin:0px;
-    color:#FF9000;
-    
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  color: #ff9000;
 }
 div.titulo2 p {
-    margin-top:15px;
+  margin-top: 15px;
 }
 h1.secunda {
-    font-size:50px;
-    color:#F4EDE8;
-    display:flex;
-    align-items:flex-end;
+  font-size: 50px;
+  color: #f4ede8;
+  display: flex;
+  align-items: flex-end;
 }
 h3 {
-    margin-top:50px;
-    color:#999591;
-    margin-bottom:15px;
+  margin-top: 50px;
+  color: #999591;
+  margin-bottom: 15px;
 }
 div.clienteprincipal {
-    background-color:#3E3B47
-    ;
-    width:640px;
-    height:112px;
+  background-color: #3e3b47;
+  width: 640px;
+  height: 112px;
 
-    display:flex;
-    align-items:center;
-    border-radius:10px;
-    
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
 }
-div.clienteprincipal div.fotoperfil{
-    display:flex;
-    width:100%;
-    justify-content:flex-start;
-    align-items:center;
-    height:100px;
-    margin-left:5%;
-   
+div.clienteprincipal div.fotoperfil {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100px;
+  margin-left: 5%;
 }
 div.identificador {
-    background-color:#FF9000;
-    width:2px;
-    height:80px;
+  background-color: #ff9000;
+  width: 2px;
+  height: 80px;
 }
-div.clienteprincipal img.icone{
-    width:80px;
-    height:80px;
-    border-radius:50%;
+div.clienteprincipal img.icone {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
 div.clienteprincipal p.principal {
-    color:#F4EDE8;
-    margin-left:5%;
-    font-size:25px;
+  color: #f4ede8;
+  margin-left: 5%;
+  font-size: 25px;
 }
-div.horarioprincipal    {
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    margin-right:5%;
+div.horarioprincipal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 5%;
 }
 div.horarioprincipal p {
-    margin-left:15%;
-    color:#999591;
-    
+  margin-left: 15%;
+  color: #999591;
 }
 div.caixacliente {
-    width:100%;
+  width: 100%;
 }
 div.horarioprincipal img.foto1 {
-    width:20px;
-    height:20px;
-    
-
+  width: 20px;
+  height: 20px;
 }
 p#espaco {
-    margin-top:50px;
+  margin-top: 50px;
 }
 div.caixacliente {
-    display:flex;
-    flex-direction:row;
+  display: flex;
+  flex-direction: row;
 }
-div.con
-{
-    display:flex;
-   flex-direction: column; 
-   width:100%;
+div.con {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 div.cliente {
-    width:544px;
-    height:88px;
-     background-color: #3E3B47;
-     border: none;
-     font-size: 16px;
-     color: #F4EDE8;
-     box-sizing: border-box;
-     font-family: 'Roboto Slab';
-     border-radius:10px;
-     padding:10px;
-    display:flex;
-    align-items:center;
-    margin-left:80px;
- }
- 
-div.cliente img.icone {
-    position:relative;
-    border-radius:40px;
-    width:10%;
-
+  width: 544px;
+  height: 88px;
+  background-color: #3e3b47;
+  border: none;
+  font-size: 16px;
+  color: #f4ede8;
+  box-sizing: border-box;
+  font-family: "Roboto Slab";
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
 }
- div.cliente p {
-    margin-left:5%;
- }
 
- div.horario {
-    width:24px;
-    height:24px;
-    display:flex;
-    align-items:center;
-    width:16px;
-    height:100px;
+div.cliente img.icone {
+  position: relative;
+  border-radius: 40px;
+  width: 10%;
+}
+div.cliente p {
+  margin-left: 5%;
+}
 
-   display:flex;
-   color:#999591;
+div.horario {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  width: 16px;
+  height: 100px;
+
+  display: flex;
+  color: #999591;
 }
 div.horario p {
-    display:flex;
-    align-items:center;
-    margin:10px;
-
-    
+  display: flex;
+  align-items: center;
+  margin: 10px;
 }
 div.linha {
-    border:1px solid #3E3B47;
-    width:640px;
-    margin-top:15px;
-    margin-bottom:15px;
-    color:#3E3B47;
+  border: 1px solid #3e3b47;
+  width: 640px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #3e3b47;
 }
 
-@media screen and (min-width:300px) and (max-width:600px) {
-    div.header {
-        width:100%;
-    }
-    div.logo img.logo {
-        width:100px;
-    height:80px; 
-    }
-    div.logo span {
-        font-size:15px;
-        position:absolute;
-        top:120px;
-        left:10px;
-        margin:0px;
-    }
-    
-    div.login p {
-        width:50%;
-    }
-    div.conteudo h1 {
-        font-size:30px;
-    }
-    div.clienteprincipal {
-        width:100%;
-    }
-    div.clienteprincipal .fotoperfil .principal{
-            font-size:20px;
-    }
-    div.clienteprincipal .fotoperfil img.icone {
-        width:60px;
-        height:60px;
-    }
-    div.linha {
-        width:100%;
-    }
-    div.con .caixacliente .cliente .icone {
-        width:35px;
-    }
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  div.header {
+    width: 100%;
+  }
+  div.logo img.logo {
+    width: 100px;
+    height: 80px;
+  }
+  div.logo span {
+    font-size: 15px;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    margin: 0px;
+  }
+
+  div.login p {
+    width: 50%;
+  }
+  div.conteudo h1 {
+    font-size: 30px;
+  }
+  div.clienteprincipal {
+    width: 100%;
+  }
+  div.clienteprincipal .fotoperfil .principal {
+    font-size: 20px;
+  }
+  div.clienteprincipal .fotoperfil img.icone {
+    width: 60px;
+    height: 60px;
+  }
+  div.linha {
+    width: 100%;
+  }
+  div.con .caixacliente .cliente .icone {
+    width: 35px;
+  }
 }
-@media screen and (min-width:450px) and (max-width:800px) {
-    div.clienteprincipal {
-        width:100%;
-      }
-    }
-
-
-
+@media screen and (min-width: 450px) and (max-width: 800px) {
+  div.clienteprincipal {
+    width: 100%;
+  }
+}

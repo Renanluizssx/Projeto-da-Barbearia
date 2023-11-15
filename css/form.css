@@ -1,55 +1,49 @@
 div.entradas {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 form {
-
-   flex-direction: column;
-   width:340px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    
+  flex-direction: column;
+  width: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 input {
-    margin:1%;
-    background-color:#28262E;
-    border-radius:7px;
-    border:none;
-    height:40px;
-    width:100%;
-    padding:25px;
-    padding-left:40px;
-    color:#666360;
-
+  margin: 1%;
+  background-color: #28262e;
+  border-radius: 7px;
+  border: none;
+  height: 40px;
+  width: 100%;
+  padding: 25px;
+  padding-left: 40px;
+  color: #666360;
 }
 div.input {
-    width:100%;
-    position:relative;
+  width: 100%;
+  position: relative;
 }
 
 img.inputmod {
-    position:absolute;
-    top:40%;
-    left:4%;
-    width:15px;
-
+  position: absolute;
+  top: 40%;
+  left: 4%;
+  width: 15px;
 }
 div.button {
-    display:flex;
-    width:340px;
-    height:36px;
-    justify-content:center;
-    margin-top:5%;
-}   
+  display: flex;
+  width: 340px;
+  height: 36px;
+  justify-content: center;
+  margin-top: 5%;
+}
 button {
-    width:100%;
-    height:50px;
-    background-color: orange;
-    border:none;
-    border-radius:7px;
-    color:#000;
-    
-
+  width: 100%;
+  height: 50px;
+  background-color: orange;
+  border: none;
+  border-radius: 7px;
+  color: #000;
 }

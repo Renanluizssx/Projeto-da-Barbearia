@@ -1,71 +1,61 @@
-
-
-
 body {
-    background-color:#312E38;
-    
-    
-
+  background-color: #312e38;
 }
+
 div.bloco {
-    display:grid;
-    grid: auto / 50% 50%;
-    height:100vh;
-    overflow:hidden;
+  display: grid;
+  grid: auto / 50% 50%;
+  height: 100vh;
+  overflow: hidden;
 }
 .imagem img {
-    height:100vh;
-    width:100%;
+  height: 100vh;
+  width: 100%;
 }
 
 div.con {
-    font-family: 'Roboto Slab', serif;
-    height:100vh;
-    width:100%;
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content:center;
+  font-family: "Roboto Slab", serif;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 div.logo {
-    margin-top:100px;
+  margin-top: 100px;
 }
 form {
-    height:100%;
+  height: 100%;
 }
 div.entradas {
-    margin-bottom:20%;
-    margin-top:20px;
-    width:100%;
-    
+  margin-bottom: 20%;
+  margin-top: 20px;
+  width: 100%;
 }
 div.voltar {
-    margin-bottom:10%;
-    display:flex;
-    flex-direction: row;
-    width:100%;
-    justify-content:center;
-
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
 }
 img.ivoltar {
-    width:20px;
-    height:20px;
-    margin-right:15px;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
 }
 p.pvoltar {
-    color:white;
-    display:flex;
-    align-items:center;
+  color: white;
+  display: flex;
+  align-items: center;
 }
 
-@media screen and (min-width:300px) and (max-width:700px) {
-        
-  
-     div.bloco {
-        display:block;
-        
-    }
-    .imagem img {
-        display: none;
-    }
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  div.bloco {
+    display: block;
+  }
+  .imagem img {
+    display: none;
+  }
 }

@@ -1,99 +1,97 @@
 div.bloco {
-    overflow:hidden;
+  overflow: hidden;
 }
 main {
-    height:100vh;
+  height: 100vh;
 }
 div.conteudo {
-    margin:5%;
-    margin-top:3%;
-    width:100%;
+  margin: 5%;
+  margin-top: 3%;
+  width: 100%;
 }
 div.conteudo h1 {
-    color:#F4EDE8;
-    font-size:36px;
-    font-weight:900;
-    width:100%;
-    height:47px;
+  color: #f4ede8;
+  font-size: 36px;
+  font-weight: 900;
+  width: 100%;
+  height: 47px;
 }
 div.conteudo p {
-    margin-top:10px;
-    margin-bottom:40px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 div.conteudo span {
-    color:#7d7c7d;
-    margin-bottom:50px;
+  color: #7d7c7d;
+  margin-bottom: 50px;
 }
 div.conteudo div.linha {
-    border:1px solid #3E3B47;
-    margin-top:15px;
-    margin-bottom:10px;
-    width:650px;
-    
+  border: 1px solid #3e3b47;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 650px;
 }
 div.conteudo p.data {
-    color:#FF9000;
+  color: #ff9000;
 }
-div.manha, div.tarde {
-    display:flex;
+div.manha,
+div.tarde {
+  display: flex;
 }
 div.manha {
-    margin-bottom:5%;
+  margin-bottom: 5%;
 }
 div.caixah {
-    width:59px;
-    height:28px;
-    background-color:#3E3B47;
-    margin:5px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border-radius:5px;
-    color:#F4EDE8;
+  width: 59px;
+  height: 28px;
+  background-color: #3e3b47;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: #f4ede8;
 }
 div.button {
-    width:100%;
-    
+  width: 100%;
 }
 button {
-    width:640px;
-    background-color:#FF9000;
-    border:none;
-    height:43px;
-    border-radius:10px;
-    margin-top:5%;
-    font-size:16px;
+  width: 640px;
+  background-color: #ff9000;
+  border: none;
+  height: 43px;
+  border-radius: 10px;
+  margin-top: 5%;
+  font-size: 16px;
 }
-@media screen and (min-width:300px) and (max-width:700px) {
-    div.header {
-        width:100%;
-    }
-    div.logo img.logo {
-        width:100px;
-    height:80px; 
-    }
-    div.logo span {
-        font-size:15px;
-        position:absolute;
-        top:120px;
-        left:10px;
-        margin:0px;
-    }
-    
-    div.login p {
-        width:50%;
-    }
-    div.conteudo h1 {
-        font-size:30px;
-    }
-    div.conteudo div.linha {
-        border:1px solid #3E3B47;
-        margin-top:15px;
-        margin-bottom:10px;
-        width:340px;
-        
-    }
-    button {
-        width:340px;
-    }
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  div.header {
+    width: 100%;
+  }
+  div.logo img.logo {
+    width: 100px;
+    height: 80px;
+  }
+  div.logo span {
+    font-size: 15px;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    margin: 0px;
+  }
+
+  div.login p {
+    width: 50%;
+  }
+  div.conteudo h1 {
+    font-size: 30px;
+  }
+  div.conteudo div.linha {
+    border: 1px solid #3e3b47;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 340px;
+  }
+  button {
+    width: 340px;
+  }
 }
